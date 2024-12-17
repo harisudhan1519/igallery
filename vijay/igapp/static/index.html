@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1 align="center"><b>IMAGE GALLERY</b></h1>
+ 
+<div class="container">
+    <div class="gallery">
+        <img src="ig1.webp" onclick="openFullImg(this.src)">
+        <img src="ig2.avif" onclick="openFullImg(this.src)">
+        <img src="ig3.webp" onclick="openFullImg(this.src)">
+        <img src="ig4.jpeg" onclick="openFullImg(this.src)">
+        <img src="ig5.webp" onclick="openFullImg(this.src)">
+        <img src="ig6.avif" onclick="openFullImg(this.src)">
+        
+    </div>
+
+</div>
+<div class="fullimg" id="fullImgBox">
+    <img src="bgimg.jpg" id="fullImg">
+    <span onclick="closeFullImg()">close</span>
+</div>  
+<footer>
+    <p align="center">&copy; Designed and developed by Harisudhan S</p>
+</footer>
+</body>
+
+</html>
